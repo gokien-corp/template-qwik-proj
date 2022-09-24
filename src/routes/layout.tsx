@@ -10,7 +10,7 @@ export default component$(() => {
           <Slot />
         </section>
       </main>
-      <footer>
+      <footer class={"flex items-center justify-center h-20 bg-slate-100"}>
         <a href="https://www.builder.io/" target="_blank">
           Made with ♡ by Builder.io
         </a>
