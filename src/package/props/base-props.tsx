@@ -1,7 +1,7 @@
 import { JSXChildren } from "@builder.io/qwik"
 
 interface BaseProps {
-	className?: string
+	class?: string
 	style?: Record<string, any>
 	children?: JSXChildren
 }

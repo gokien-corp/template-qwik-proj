@@ -8,10 +8,9 @@ export interface AInProps extends BasePropsComponent {
 
 export const AIn = component$((props: AInProps) => {
 	console.log(props.children)
-	return <Link href={props.href ?? ""} class={[`hover:opacity-60`, props.className ?? ""]}
+	return <Link href={props.href ?? ""} class={[`hover:opacity-70`, props.class ?? ""]}
 		style={props.style}
 	>
-		{/* {props.children} */}
 		<Slot />
 	</Link>;
 });
